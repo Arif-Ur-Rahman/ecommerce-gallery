@@ -16,7 +16,7 @@ export interface Product {
         description: "HuluLulu Smartphone with advanced camera features and 128GB storage",
         price: 599.99,
         category: "electronics",
-        image: "/images/phone.jpg",
+        image: "/images/phone.png",
         inStock: true,
       },
       {
@@ -88,7 +88,7 @@ export interface Product {
         description: "High-speed blender with 1000W motor",
         price: 79.99,
         category: "home",
-        image: "/images/blender.jpg",
+        image: "/images/blender.png",
         inStock: false,
       },
       {
@@ -97,7 +97,7 @@ export interface Product {
         description: "Lightweight running shoes with cushion technology",
         price: 119.99,
         category: "fitness",
-        image: "/images/shoes.jpg",
+        image: "/images/Shoe.jpg",
         inStock: true,
       },
       {
@@ -115,7 +115,7 @@ export interface Product {
         description: "LED desk lamp with adjustable brightness",
         price: 39.99,
         category: "home",
-        image: "/images/lamp.jpg",
+        image: "/images/jeans.jpg",
         inStock: true,
       }
     ];

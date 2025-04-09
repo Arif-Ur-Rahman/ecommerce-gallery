@@ -1,12 +1,12 @@
-import { CartProvider } from '@/context/CartContext';
-import Navbar from '@/components/Navbar';
-import ToasterProvider from '@/components/ToasterProvider';
-import './globals.css';
+import { CartProvider } from "@/context/CartContext";
+import Navbar from "@/components/Navbar";
+import "./globals.css";
+import ToasterProvider from "@/components/ToasterProvider";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
